@@ -1,7 +1,7 @@
 
 {
-  "buildCommand": "next build",
-  "installCommand": "bun install --frozen-lockfile",
+  "buildCommand": "bun run build",
+  "installCommand": "bun install --no-cache",
   "framework": "nextjs",
   "outputDirectory": ".next"
 }

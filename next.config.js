@@ -26,7 +26,8 @@ const nextConfig = (() => {
 			optimizeCss: false
 		},
 		optimizeFonts: false,
-		swcMinify: true,
+		swcMinify: false,
+		poweredByHeader: false,
 	};
 
 	mergeConfig(config, userConfig);
