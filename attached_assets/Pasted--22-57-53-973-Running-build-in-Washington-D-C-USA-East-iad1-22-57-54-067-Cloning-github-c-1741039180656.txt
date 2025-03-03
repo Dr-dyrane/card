@@ -1,0 +1,125 @@
+[22:57:53.973] Running build in Washington, D.C., USA (East) – iad1
+[22:57:54.067] Cloning github.com/Dr-dyrane/card (Branch: main, Commit: 58b6803)
+[22:57:54.201] Previous build caches not available
+[22:57:54.280] Cloning completed: 213.000ms
+[22:57:54.505] Running "vercel build"
+[22:57:54.971] Vercel CLI 41.2.2
+[22:57:55.268] Running "install" command: `bun install`...
+[22:57:55.303] bun install v1.2.2 (c1708ea6)
+[22:57:55.316] [9.14ms] migrated lockfile from package-lock.json
+[22:57:57.146] Saved lockfile
+[22:57:57.146] 
+[22:57:57.147] + @emotion/is-prop-valid@1.3.1
+[22:57:57.147] + @hookform/resolvers@3.10.0
+[22:57:57.147] + @radix-ui/react-accordion@1.2.3
+[22:57:57.147] + @radix-ui/react-alert-dialog@1.1.6
+[22:57:57.147] + @radix-ui/react-aspect-ratio@1.1.2
+[22:57:57.147] + @radix-ui/react-avatar@1.1.3
+[22:57:57.147] + @radix-ui/react-checkbox@1.1.4
+[22:57:57.147] + @radix-ui/react-collapsible@1.1.3
+[22:57:57.147] + @radix-ui/react-context-menu@2.2.6
+[22:57:57.147] + @radix-ui/react-dialog@1.1.6
+[22:57:57.147] + @radix-ui/react-dropdown-menu@2.1.6
+[22:57:57.147] + @radix-ui/react-hover-card@1.1.6
+[22:57:57.147] + @radix-ui/react-label@2.1.2
+[22:57:57.147] + @radix-ui/react-menubar@1.1.6
+[22:57:57.147] + @radix-ui/react-navigation-menu@1.2.5
+[22:57:57.147] + @radix-ui/react-popover@1.1.6
+[22:57:57.147] + @radix-ui/react-progress@1.1.2
+[22:57:57.147] + @radix-ui/react-radio-group@1.2.3
+[22:57:57.147] + @radix-ui/react-scroll-area@1.2.3
+[22:57:57.147] + @radix-ui/react-select@2.1.6
+[22:57:57.147] + @radix-ui/react-separator@1.1.2
+[22:57:57.147] + @radix-ui/react-slider@1.2.3
+[22:57:57.147] + @radix-ui/react-slot@1.1.2
+[22:57:57.147] + @radix-ui/react-switch@1.1.3
+[22:57:57.148] + @radix-ui/react-tabs@1.1.3
+[22:57:57.148] + @radix-ui/react-toast@1.2.6
+[22:57:57.148] + @radix-ui/react-toggle@1.1.2
+[22:57:57.148] + @radix-ui/react-toggle-group@1.1.2
+[22:57:57.148] + @radix-ui/react-tooltip@1.1.8
+[22:57:57.148] + autoprefixer@10.4.20
+[22:57:57.148] + class-variance-authority@0.7.1
+[22:57:57.148] + clsx@2.1.1
+[22:57:57.148] + cmdk@1.0.4
+[22:57:57.148] + date-fns@3.6.0
+[22:57:57.148] + embla-carousel-react@8.5.1
+[22:57:57.148] + framer-motion@12.4.9
+[22:57:57.148] + html2canvas@1.4.1
+[22:57:57.148] + input-otp@1.4.1
+[22:57:57.148] + lucide-react@0.454.0
+[22:57:57.148] + next@14.2.16
+[22:57:57.148] + next-themes@0.4.4
+[22:57:57.148] + qrcode.react@4.2.0
+[22:57:57.148] + react@18.3.1
+[22:57:57.148] + react-day-picker@8.10.1
+[22:57:57.148] + react-dom@18.3.1
+[22:57:57.148] + react-hook-form@7.54.2
+[22:57:57.148] + react-resizable-panels@2.1.7
+[22:57:57.149] + recharts@2.15.0
+[22:57:57.149] + sonner@1.7.4
+[22:57:57.149] + tailwind-merge@2.6.0
+[22:57:57.149] + tailwindcss-animate@1.0.7
+[22:57:57.149] + vaul@0.9.9
+[22:57:57.149] + zod@3.24.2
+[22:57:57.149] + @types/node@22.13.9
+[22:57:57.149] + @types/react@18.3.18
+[22:57:57.149] + @types/react-dom@18.3.5
+[22:57:57.149] + postcss@8.5.3
+[22:57:57.149] + tailwindcss@3.4.17
+[22:57:57.149] + typescript@5.8.2
+[22:57:57.149] 
+[22:57:57.149] 279 packages installed [1.86s]
+[22:57:57.172] Detected Next.js version: 14.2.16
+[22:57:57.172] Running "bun run build"
+[22:57:57.179] $ next build
+[22:57:57.864] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[22:57:57.864] This information is used to shape Next.js' roadmap and prioritize features.
+[22:57:57.864] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[22:57:57.864] https://nextjs.org/telemetry
+[22:57:57.864] 
+[22:57:57.921]   ▲ Next.js 14.2.16
+[22:57:57.921]   - Experiments (use with caution):
+[22:57:57.921]     · webpackBuildWorker
+[22:57:57.921]     · parallelServerCompiles
+[22:57:57.921]     · parallelServerBuildTraces
+[22:57:57.921] 
+[22:57:57.995]    Creating an optimized production build ...
+[22:58:12.042] Failed to compile.
+[22:58:12.043] 
+[22:58:12.043] HookWebpackError: Cannot read properties of undefined (reading 'length')
+[22:58:12.043]     at makeWebpackError (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:312635)
+[22:58:12.043]     at /vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:28:106060
+[22:58:12.043]     at eval (eval at create (/vercel/path0/node_modules/next/dist/compiled/webpack/bundle5.js:13:28858), <anonymous>:44:1)
+[22:58:12.043] -- inner error --
+[22:58:12.043] TypeError: Cannot read properties of undefined (reading 'length')
+[22:58:12.043]     at /vercel/path0/static/css/88b990a2f8019639.css:2090:2
+[22:58:12.043]     at e.exports [as unit] (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:4768)
+[22:58:12.043]     at /vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41982
+[22:58:12.043]     at Array.forEach (<anonymous>)
+[22:58:12.043]     at /vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41912
+[22:58:12.043]     at walk (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:5390)
+[22:58:12.043]     at ValueParser.walk (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:311)
+[22:58:12.043]     at optimise (/vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41533)
+[22:58:12.044]     at /vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:345:18
+[22:58:12.044]     at /vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:297:18
+[22:58:12.044]     at Rule.each (/vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:53:16)
+[22:58:12.044] caused by plugins in Compilation.hooks.processAssets
+[22:58:12.045] TypeError: Cannot read properties of undefined (reading 'length')
+[22:58:12.045]     at /vercel/path0/static/css/88b990a2f8019639.css:2090:2
+[22:58:12.045]     at e.exports [as unit] (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:4768)
+[22:58:12.045]     at /vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41982
+[22:58:12.045]     at Array.forEach (<anonymous>)
+[22:58:12.045]     at /vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41912
+[22:58:12.045]     at walk (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:5390)
+[22:58:12.045]     at ValueParser.walk (/vercel/path0/node_modules/next/dist/compiled/postcss-value-parser/index.js:1:311)
+[22:58:12.045]     at optimise (/vercel/path0/node_modules/next/dist/compiled/cssnano-simple/index.js:190:41533)
+[22:58:12.046]     at /vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:345:18
+[22:58:12.046]     at /vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:297:18
+[22:58:12.046]     at Rule.each (/vercel/path0/node_modules/next/node_modules/postcss/lib/container.js:53:16)
+[22:58:12.046] 
+[22:58:12.051] 
+[22:58:12.051] > Build failed because of webpack errors
+[22:58:12.060] error: script "build" exited with code 1
+[22:58:12.070] Error: Command "bun run build" exited with 1
+[22:58:12.496] 
