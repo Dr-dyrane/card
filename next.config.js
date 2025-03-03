@@ -1,4 +1,3 @@
-
 // IIFE (Immediately Invoked Function Expression) to allow await
 const nextConfig = (() => {
 	let userConfig = undefined;
@@ -26,6 +25,8 @@ const nextConfig = (() => {
 			parallelServerCompiles: true,
 			optimizeCss: false
 		},
+		optimizeFonts: false,
+		swcMinify: true,
 	};
 
 	mergeConfig(config, userConfig);
