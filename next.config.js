@@ -1,30 +1,36 @@
-let userConfig = undefined;
-try {
-	userConfig = await import("./v0-user-next.config");
-} catch (e) {
-	// ignore error
-}
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
-	typescript: {
-		ignoreBuildErrors: true,
-	},
-	images: {
-		unoptimized: true,
-	},
-	experimental: {
-		webpackBuildWorker: true,
-		parallelServerBuildTraces: true,
-		parallelServerCompiles: true,
-		optimizeCss: false
-	},
-};
+// IIFE (Immediately Invoked Function Expression) to allow await
+const nextConfig = (() => {
+	let userConfig = undefined;
+	try {
+		// Use require instead of await import
+		userConfig = require("./v0-user-next.config");
+	} catch (e) {
+		// ignore error
+	}
 
-mergeConfig(nextConfig, userConfig);
+	/** @type {import('next').NextConfig} */
+	const config = {
+		eslint: {
+			ignoreDuringBuilds: true,
+		},
+		typescript: {
+			ignoreBuildErrors: true,
+		},
+		images: {
+			unoptimized: true,
+		},
+		experimental: {
+			webpackBuildWorker: true,
+			parallelServerBuildTraces: true,
+			parallelServerCompiles: true,
+			optimizeCss: false
+		},
+	};
+
+	mergeConfig(config, userConfig);
+	return config;
+})();
 
 function mergeConfig(nextConfig, userConfig) {
 	if (!userConfig) {
@@ -46,4 +52,4 @@ function mergeConfig(nextConfig, userConfig) {
 	}
 }
 
-export default nextConfig;
+module.exports = nextConfig;
