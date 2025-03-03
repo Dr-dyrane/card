@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
-import "./global.css"
+import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Pastor Enoch Olajide J. - Digital Business Card",
